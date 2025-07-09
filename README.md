@@ -1,13 +1,44 @@
-# Sample Hardhat Project
+## ⚙️ Getting Started
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+### 1. Clone the Repository
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+```bash
+git clone https://github.com/xRiot45/devote-smartcontracts
+cd devote-smartcontracts
 ```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Compile Smart Contract
+
+```bash
+npx hardhat compile
+```
+
+### 4. Run Local Blockchain with Hardhat Node
+
+```bash
+npx hardhat node
+```
+
+### 5. Deploy Smart Contract to Local Network
+
+> Run this in a new terminal so the node remains active
+
+```bash
+npx hardhat run scripts/deploy.ts --network localhost
+```
+
+### 6. Start the Frontend App (Next.js)
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---

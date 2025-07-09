@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/xriot/Projects/Blockchain/DeVote/devote-smartcontract/contracts/Lock.sol": {
+      "lastModificationDate": 1751992123044,
+      "contentHash": "4efca06698f74b4b20686e3e3e4ef06b",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.30",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "Lock"
+      ]
+    },
+    "/home/xriot/Projects/Blockchain/DeVote/devote-smartcontract/contracts/Voting.sol": {
+      "lastModificationDate": 1752049944533,
+      "contentHash": "5b965501c221d2dcc77641702be0de6a",
+      "sourceName": "contracts/Voting.sol",
+      "solcConfig": {
+        "version": "0.8.30",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.30"
+      ],
+      "artifacts": [
+        "Voting"
+      ]
+    }
+  }
+}
