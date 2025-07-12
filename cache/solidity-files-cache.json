@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/xriot/Projects/Blockchain/DeVote/devote-smartcontract/contracts/Voting.sol": {
-      "lastModificationDate": 1752049944533,
-      "contentHash": "5b965501c221d2dcc77641702be0de6a",
+      "lastModificationDate": 1752218730417,
+      "contentHash": "a8b6d6a822452b51e81629260469e994",
       "sourceName": "contracts/Voting.sol",
       "solcConfig": {
         "version": "0.8.30",

@@ -46,21 +46,18 @@ export namespace VotedEvent {
     voter: AddressLike,
     proposalId: BigNumberish,
     optionId: BigNumberish,
-    txHash: string,
     votedAt: BigNumberish
   ];
   export type OutputTuple = [
     voter: string,
     proposalId: bigint,
     optionId: bigint,
-    txHash: string,
     votedAt: bigint
   ];
   export interface OutputObject {
     voter: string;
     proposalId: bigint;
     optionId: bigint;
-    txHash: string;
     votedAt: bigint;
   }
   export type Event = TypedContractEvent<InputTuple, OutputTuple, OutputObject>;
@@ -152,7 +149,7 @@ export interface Voting extends BaseContract {
   >;
 
   filters: {
-    "Voted(address,uint256,uint256,string,uint256)": TypedContractEvent<
+    "Voted(address,uint256,uint256,uint256)": TypedContractEvent<
       VotedEvent.InputTuple,
       VotedEvent.OutputTuple,
       VotedEvent.OutputObject
